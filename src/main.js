@@ -26,3 +26,7 @@ const { nome, sobrenome, idade
 document.querySelector('#app').innerHTML = JSON.stringify('Meu nome é ' + nome + ' ' + sobrenome + ' e tenho ' + idade + ' anos.')
 
 setupCounter(document.querySelector('#counter'))
+
+function fazerAlgumaCoisa() {
+  console.log('Fiz alguma coisa');
+}
